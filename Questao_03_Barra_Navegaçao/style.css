@@ -1,0 +1,17 @@
+.navbar-custom {
+  background-color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #50032d9f;
+}
+
+.nav-links .nav-link {
+  color: #420849;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links .nav-link:hover {
+  color: #be0ba1;
+}
