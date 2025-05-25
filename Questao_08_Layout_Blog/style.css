@@ -1,0 +1,38 @@
+.blog-header {
+  background-image: url('image/natureza.jpg'); 
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  position: relative;
+}
+
+.blog-header .overlay {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 60px 20px;
+  border-radius: 10px;
+}
+
+.blog-header h1,
+.blog-header p {
+  margin: 0;
+}
+
+.blog-columns {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 1px solid #ccc;
+  text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+  .blog-columns {
+    column-count: 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .blog-columns {
+    column-count: 3;
+  }
+}
