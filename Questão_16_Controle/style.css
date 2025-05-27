@@ -1,0 +1,24 @@
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-a { background-color: #25a3dd; }
+.box-b { background-color: #da5dd3; }
+.box-c { background-color: #ec6577; }
+
+.ordem-flex .box-a { order: 3; }
+.ordem-flex .box-b { order: 1; }
+.ordem-flex .box-c { order: 2; }
+
+@media (max-width: 768px) {
+  .ordem-flex .box-a { order: 1; }
+  .ordem-flex .box-b { order: 2; }
+  .ordem-flex .box-c { order: 3; }
+}
